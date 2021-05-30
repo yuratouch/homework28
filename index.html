@@ -18,11 +18,30 @@
                     <th>Actions</th>
                 </tr>
             </thead>
-            <tbody id="contactsBody">
+            <tbody id="contactsBody"></tbody>
 
-            </tbody>
+
         </table>
+        <form id="createTask">
+			<div class="inputHolder">
+				<label>First name:</label>
+                <input id="first-input" type="text" required>
+			</div>
+			<div class="inputHolder">
+                <label>Last name:</label>
+				<input id="last-input" type="text" required>
+			</div>
+            <div class="inputHolder">
+                <label>Phone number:</label>
+				<input id="phone-input" type="text" required>
+			</div>
+			<div>
+				<button class="btns addContact">Add contact</button>
+			</div>
+		</form>
+
+
     </div>
-    <script src="./js/script1.js"></script>
+    <script src="./js/script.js" type="module"></script>
 </body>
 </html>
